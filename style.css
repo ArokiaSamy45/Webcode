@@ -1,0 +1,38 @@
+body {
+    background-color: blueviolet;
+    margin:10px;
+    font-family:'Franklin Gothic Medium'
+}
+.card{
+    list-style:none;
+    padding:40px;
+    background-color: white;
+    color:black;
+    display:grid;
+    text-align:center;
+}
+
+.card_name {
+    text-transform: uppercase;
+    font-size:32px;
+    font-weight: normal;
+    }
+    
+    .card_weight{
+    font-weight: lighter;
+    color: #666;
+    }
+    .card_image {
+        height: 180px;
+        margin: 0 auto;
+    }
+    
+.Heading{
+    padding-inline-start:0; 
+    display:grid;
+     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+     grid-gap: 10px;
+
+}
+
+
