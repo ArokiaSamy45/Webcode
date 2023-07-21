@@ -1,38 +1,71 @@
 body {
     background-color: blueviolet;
-    margin:10px;
-    font-family:'Franklin Gothic Medium'
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium';
 }
-.card{
-    list-style:none;
-    padding:40px;
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+
+.navbar_title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.pokemon-container {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
     background-color: white;
-    color:black;
-    display:grid;
-    text-align:center;
+    color: black;
+    display: grid;
+    text-align: center;
 }
 
 .card_name {
     text-transform: uppercase;
-    font-size:32px;
+    font-size: 32px;
     font-weight: normal;
-    }
-    
-    .card_weight{
+}
+
+.card_weight {
     font-weight: lighter;
     color: #666;
-    }
-    .card_image {
-        height: 180px;
-        margin: 0 auto;
-    }
-    
-.Heading{
-    padding-inline-start:0; 
-    display:grid;
-     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-     grid-gap: 10px;
+}
 
+.card_image {
+    height: 180px;
+    margin: 0 auto;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #45a049;
 }
 
 
